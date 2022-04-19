@@ -1,5 +1,5 @@
 const terminal = document.querySelector(".terminal");
-const base = `neyako@<span style="color: #b8d5ef">neji.works</span>:<span style="color: dodgerblue">~</span>$ `;
+const base = `sh1ftie@<span style="color: #b8d5ef">sh1ftie.tech</span>:<span style="color: dodgerblue">~</span>$ `;
 let array = [];
 let input = "";
 let lastIdx = -1;
