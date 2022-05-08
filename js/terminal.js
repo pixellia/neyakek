@@ -137,7 +137,7 @@ function print404() {
 }
 
 function inputLine(k) {
-	terminal.innerHTML += `\n<div class=\"new-line\">neyako@<span style=\"color: #b8d5ef\">neji.works</span>:<span style=\"color: dodgerblue\">~</span>$ ${k?k:""}</div>`
+	terminal.innerHTML += `\n<div class=\"new-line\">sh1ftie@<span style=\"color: #b8d5ef\">sh1ftie.works</span>:<span style=\"color: dodgerblue\">~</span>$ ${k?k:""}</div>`
 }
 
 function writeLine(l) {
