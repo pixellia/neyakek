@@ -1,5 +1,5 @@
 const terminal = document.querySelector(".terminal");
-const base = `sh1ftie@<span style="color: #b8d5ef">sh1ftie.works</span>:<span style="color: dodgerblue">~</span>$ `;
+const base = `<span style="color: #b8d5ef">sh1ftie.tech</span>:<span style="color: dodgerblue">~</span>$ `;
 let array = [];
 let input = "";
 let lastIdx = -1;
@@ -137,7 +137,7 @@ function print404() {
 }
 
 function inputLine(k) {
-	terminal.innerHTML += `\n<div class=\"new-line\">sh1ftie@<span style=\"color: #b8d5ef\">sh1ftie.works</span>:<span style=\"color: dodgerblue\">~</span>$ ${k?k:""}</div>`
+	terminal.innerHTML += `\n<div class=\"new-line\"><span style=\"color: #b8d5ef\">sh1ftie.tech</span>:<span style=\"color: dodgerblue\">~</span>$ ${k?k:""}</div>`
 }
 
 function writeLine(l) {
